@@ -1,0 +1,70 @@
+.bg {
+	-fx-border-color:  #5c61ffaa #ff5640aa  #5c61ffaa #ff5640aa;
+	-fx-background-color: white;
+	-fx-border-width: 3;
+	-fx-border-radius: 10px;
+	-fx-border-insets: 5;
+}
+
+.hex-button {
+	-fx-background-color: #ededed;
+	-fx-background-insets:0;
+	
+
+	-fx-padding:0;
+	-fx-margin:0;
+	-fx-border-color:#525252;
+	-fx-cursor: HAND;
+
+  
+
+	-fx-border-width:2px;
+
+	-fx-shape:"M14 4.21281L7.5 0.421143L1 4.21281V10.7872L7.5 14.5788L14 10.7872V4.21281Z";
+	-fx-effect:null;
+}
+.hex-button-active:hover  {
+	-fx-background-color: #ffd9a1;
+}
+
+.hex-button-active:pressed  {
+	-fx-background-color: #ffb13f;
+}
+
+
+.hex-pointer {
+	-fx-background-color: transparent;
+	-fx-padding:0;
+	-fx-margin:0;
+	-fx-background-radius:100%;
+}
+.hex-pointer-player1{
+	-fx-background-color: #ff5640;
+}
+.hex-pointer-player2{
+	-fx-background-color: #5c61ff;
+}
+
+
+
+.start-button {
+	-fx-background-color: #1360d5;
+	-fx-text-fill: white;
+}
+
+.start-button:hover {
+	-fx-background-color: #2b97d2;
+}
+
+.start-button:pressed {
+	-fx-background-color: #88b9ee;
+}
+
+.bottom-band {
+	-fx-background-color: #eeeeee;
+	-fx-border-width: 1 0 0 0;
+	-fx-border-color: #a4a4a4;
+}
+
+
+
